@@ -1,0 +1,42 @@
+ 
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 896px){
+    
+    .main-container{
+        grid-template-columns: 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px;
+
+    }
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+}
+body {
+    background: url('https://media.istockphoto.com/id/1226586928/photo/hot-vegetable-soup-in-a-dish-made-of-natural-materials-traditional-family-lunch-in-a-russian.jpg?s=612x612&w=0&k=20&c=BEJ-vSjbEpLWFUvgqVBuGlReQojVQC7zhAJI8c-YJQs=') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
